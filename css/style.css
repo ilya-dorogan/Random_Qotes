@@ -1,0 +1,54 @@
+@import url(reset.css);
+
+
+body {
+	height: 100vh;
+	overflow: hidden;
+	background-color: rgb(111, 129, 233);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+
+}
+
+.contsiner {
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.qoutes {
+	padding: 20px;
+	background-color: blanchedalmond;
+	color: rgb(47, 68, 87);
+	border: 10px solid rgb(66, 61, 61);
+	width: 900px;
+	height: 500px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.qoutes p {
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 1.4;
+	font-style: italic;
+}
+
+.qoutes h3 {
+	font-size: 1.75rem;
+	font-weight: 700;
+}
+
+.btn-container {
+	padding: 50px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
